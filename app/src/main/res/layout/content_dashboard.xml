@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.DashboardActivity"
+    android:background="#fff"
+    tools:showIn="@layout/app_bar_dashboard"
+    android:orientation="vertical">
+   <!-- <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textViewText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:paddingLeft="10dp"
+            android:textColor="#005B77"
+            android:layout_marginTop="30dp"
+            android:gravity="left"
+            android:text="Choose Your Deal" />
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_alignRight="@id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/logo_flexpay_splashscreen"
+
+                android:textColor="#fff" />
+            <View
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:background="#005B77"
+                android:layout_height="3dp"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/first"
+            android:layout_below="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/retail"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_retail"
+                    android:src="@drawable/ic_retail"
+                    android:textColor="#fff" />
+                <TextView
+                    android:id="@+id/textView231"
+                    android:layout_below="@+id/retail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="Retail" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/holiday"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_construction"
+                    android:src="@drawable/ic_construction"
+                    android:textColor="#fff" />
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_below="@+id/holiday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="Construction" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/construction"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/circle_holiday"
+                    android:src="@drawable/ic_holiday"
+                    android:textColor="#fff" />
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_below="@+id/construction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="Holiday" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_below="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonfees"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_fees"
+                android:src="@drawable/ic_fees"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewFess"
+                android:layout_below="@+id/buttonfees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="School Fess" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonHoliday"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_rent"
+                android:src="@drawable/ic_rent"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewHoliday"
+                android:layout_below="@id/buttonHoliday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Rent" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/buttonVehicle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_vehicle"
+                android:src="@drawable/ic_vehicle"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewVehicle"
+                android:layout_below="@id/buttonVehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Vehicle" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/second"
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonChama"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_chama"
+                android:src="@drawable/ic_chama"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewChama"
+                android:layout_below="@+id/buttonChama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Chama" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonOther"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle_others"
+                android:src="@drawable/ic_others"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewOther"
+                android:layout_below="@+id/buttonOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Other" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/buttonShare"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/circle"
+                android:src="@drawable/ic_share"
+                android:textColor="#fff" />
+            <TextView
+                android:id="@+id/textViewShare"
+                android:layout_below="@id/buttonShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:text="Share" />
+
+        </RelativeLayout>
+    </RelativeLayout>-->
+
+    </RelativeLayout>

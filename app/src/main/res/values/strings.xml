@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FlexPay</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_flexpay_logout">logout</string>
+    <string name="nav_header_user_name">First Last Name</string>
+    <string name="nav_header_user_email">user email address</string>
+    <string name="content_discription">It contains an image in Splash Screen</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name_wallet">Wallet</string>
+    <string name="app_name_booking">Booking</string>
+    <string name="app_name_deals">Deals</string>
+    <string name="app_name_goals">Goals</string>
+    <string name="app_name_profile">Profile</string>
+    <string name="app_name_add_goals">Add Goal</string>
+</resources>
